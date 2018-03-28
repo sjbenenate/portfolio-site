@@ -1,0 +1,170 @@
+/******* BASE STYLES *******/
+body {
+  font-family: 'Arbutus Slab';
+}
+
+body h1 {
+  font-family: 'Macondo Swash Caps';
+  font-size: 72;
+}
+
+body h2 {
+  font-family: 'Macondo Swash Caps';
+  font-size: 36;
+
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+body h3 {
+  font-family: 'baloo da';
+  font-size: 18;
+}
+
+body p {
+  font-family: 'open sans';
+  font-size: 16;
+}
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto!important;
+  float: none!important;
+  padding-top: 20px;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+.spacer {
+  clear: both;
+  /*border: 5px solid black;*/
+  height: 50px;
+}
+
+
+/******* NAV *******/
+nav {
+  float: right;
+  padding: auto 40px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  color: #99a592;
+  padding-left: 60px;
+}
+
+/******* HEADER *******/
+
+#home {
+  background: url("../img/ocean-waves.jpg") no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+
+#home #name {
+  font-family: 'Macondo Swash Caps';
+  font-size: 70px;
+}
+
+#home h1, p {
+  padding: 0 50px;
+}
+
+#home p {
+  font-size: 36px;
+}
+
+
+
+/******* ABOUT *******/
+#about {
+    background-color: #f9feed;
+}
+
+
+#profile-pic {
+  width: 300px;
+  margin-left: 150px;
+}
+
+#about p {
+  padding: 0 50px;
+}
+
+#about full-width {
+  padding: 50px 0;
+}
+
+
+/******* SKILLS *******/
+#skills {
+  background: #d6e7cc;
+}
+
+#skills img {
+  width: 70px;
+}
+
+#skills .third-width {
+  text-align: center;
+}
+
+
+
+/******* WORK *******/
+#work {
+  background-color: #f9feed;
+}
+
+#work img {
+  width: 300px;
+}
+
+#work .third-width {
+  text-align: center;
+}
+
+
+/******* CONTACT *******/
+#contact  {
+  background-color: #99a592;
+}
+
+#contact p {
+  text-align: center;
+}
+
+#contact h2, h3 {
+  text-align: center;
+
+}
+
+
+#contact ul {
+  list-style: none;
+  float: right;
+}
+
+#contact ul li {
+  display: inline-block;
+}
+
+#contact ul img {
+  padding-right: 60px;
+  width: 50px;
+}
