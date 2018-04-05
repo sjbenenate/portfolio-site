@@ -1,0 +1,51 @@
+/******* BASE STYLES *******/
+body {
+  font-family: 'Arbutus Slab';
+}
+
+body h1 {
+  font-family: 'Macondo Swash Caps';
+  font-size: 72;
+}
+
+body h2 {
+  font-family: 'Macondo Swash Caps';
+  font-size: 36px;
+  padding: 0;
+  margin: 0;
+}
+
+body h3 {
+  font-family: 'arugutus slab', sans-serif;
+  font-size: 18;
+}
+
+body p {
+  font-family: 'open sans';
+  font-size: 16;
+}
+
+/******* GRID *******/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto!important;
+  float: none!important;
+  padding-top: 20px;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+.spacer {
+  clear: both;
+  /*border: 5px solid black;*/
+  height: 20px;
+}
