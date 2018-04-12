@@ -5,7 +5,7 @@ body {
 
 body h1 {
   font-family: 'Macondo Swash Caps';
-  font-size: 72;
+  font-size: 72px;
 }
 
 body h2 {
@@ -17,12 +17,12 @@ body h2 {
 
 body h3 {
   font-family: 'arugutus slab', sans-serif;
-  font-size: 18;
+  font-size: 18px;
 }
 
 body p {
   font-family: 'open sans';
-  font-size: 16;
+  font-size: 16px;
 }
 
 /******* GRID *******/
